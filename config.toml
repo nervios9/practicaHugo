@@ -1,0 +1,162 @@
+
+baseURL = 'http://example.org/'
+
+languageCode = 'en-us'
+
+theme = 'hugo-PaperMod'
+
+title = 'Sergio Gómez'
+
+
+
+
+
+
+
+
+
+[languages]
+
+  [languages.en]
+
+    languageName = 'English'
+
+    weight = 0
+
+
+
+
+
+    [languages.en.menu]
+
+[[languages.en.menu.main]]
+
+      name = 'About me'
+
+      url = '/en/aboutMe'
+
+      weight = 0
+
+[[languages.en.menu.main]]
+
+      name = 'Hugo'
+
+      url = '/en/hugoEn'
+
+      weight = 0
+
+[[languages.en.menu.main]]
+
+      name = 'Puzzle'
+
+      url = '/en/puzzleEn'
+
+      weight = 0
+
+[[languages.en.menu.main]]
+
+      name = 'Comunication'
+
+      url = '/en/ComuEn'
+
+      weight = 0
+
+
+
+
+  [languages.es]
+
+    languageName = 'Spanish'
+
+    weight = 0
+
+    contentDir='content/es'
+
+
+
+
+
+    [languages.es.menu]
+
+[[languages.es.menu.main]]
+
+      name = 'Sobre Mi'
+
+      url = '/es/sobreMi'
+
+      weight = 0
+
+[[languages.es.menu.main]]
+
+      name = 'Hugo'
+
+      url = '/es/hugoEs'
+
+      weight = 0
+
+[[languages.es.menu.main]]
+
+      name = 'Puzzle'
+
+      url = '/es/puzzleEs'
+
+      weight = 0
+
+[[languages.es.menu.main]]
+
+      name = 'Comunicacion'
+
+      url = '/es/comuEs'
+
+      weight = 0
+
+
+  [languages.fr]
+
+    languageName = 'Frances'
+
+    weight = 0
+
+    contentDir='content/fr'
+
+
+
+
+
+    [languages.fr.menu]
+
+[[languages.fr.menu.main]]
+
+      name = 'Sur Moi'
+
+      url = '/fr/surMoi'
+
+      weight = 0
+
+[[languages.fr.menu.main]]
+
+      name = 'Hugo'
+
+      url = '/fr/hugoFr'
+
+      weight = 0
+
+[[languages.fr.menu.main]]
+
+      name = 'Puzzle'
+
+      url = '/fr/puzzleFr'
+
+      weight = 0
+
+[[languages.fr.menu.main]]
+
+      name = 'Comunication'
+
+      url = '/fr/comuFr'
+
+      weight = 0
+
+
+
+
